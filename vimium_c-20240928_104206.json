@@ -1,0 +1,115 @@
+{
+	"name": "Vimium C",
+	"@time": "9/28/2024, 10:42:06 AM",
+	"time": 1727491326171,
+	"environment": {
+		"extension": "2.11.3",
+		"platform": "win",
+		"chromium": 129
+	},
+	"autoDarkMode": 1,
+	"exclusionRules": [
+		{
+			"passKeys": "1 ",
+			"pattern": ":https://www.youtube.com/"
+		},
+		{
+			"passKeys": "2 ",
+			"pattern": ":https://www.youtube.com/"
+		},
+		{
+			"passKeys": "3 ",
+			"pattern": ":https://www.youtube.com/"
+		},
+		{
+			"passKeys": "4 ",
+			"pattern": ":https://www.youtube.com/"
+		},
+		{
+			"passKeys": "5 ",
+			"pattern": ":https://www.youtube.com/"
+		},
+		{
+			"passKeys": "6 ",
+			"pattern": ":https://www.youtube.com/"
+		},
+		{
+			"passKeys": "7 ",
+			"pattern": ":https://www.youtube.com/"
+		},
+		{
+			"passKeys": "8 ",
+			"pattern": ":https://www.youtube.com/"
+		},
+		{
+			"passKeys": "9 ",
+			"pattern": ":https://www.youtube.com/"
+		},
+		{
+			"passKeys": "0 ",
+			"pattern": ":https://www.youtube.com/"
+		},
+		{
+			"passKeys": "F ",
+			"pattern": ":https://www.youtube.com/"
+		},
+		{
+			"passKeys": "F ",
+			"pattern": ":https://www.twitch.tv/"
+		}
+	],
+	"keyLayout": 2,
+	"keyMappings": [
+		"#!no-check",
+		"unmapAll",
+		"map ? showHelp",
+		"",
+		"map w LinkHints.activateOpenInNewForegroundTab",
+		"map s LinkHints.activate",
+		"map a LinkHints.activateFocus",
+		"map q LinkHints.activateCopyLinkText",
+		"map Q LinkHints.activateCopyImage",
+		"",
+		"map <a-1> enterInsertMode",
+		"map <a-r> toggleReaderMode",
+		"",
+		"#map F scrollToBottom",
+		"#map R scrollToTop",
+		"",
+		"map b moveTabToNextWindow",
+		"map n moveTabToIncognito",
+		"",
+		"map y visitPreviousTab",
+		"map e previousTab",
+		"map t nextTab",
+		"",
+		"map R scrollLeft",
+		"map F scrollRight",
+		"",
+		"map f scrollPageDown",
+		"map r scrollPageUp",
+		"",
+		"map h reloadTab",
+		"map z restoreTab",
+		"map Z goToRoot",
+		"map x removeTab",
+		"map X closeOtherTabs",
+		"#closewindows c-s-w default sc",
+		"map c duplicateTab",
+		"map v createTab",
+		"map m toggleMuteTab",
+		"",
+		"map D goPrevious",
+		"map g goForward",
+		"map G goNext",
+		"map d goBack",
+		"",
+		"#map l scrollSelect",
+		"#shortcut createTab position=\"end\"",
+		"#shortcut userCustomized1 command=\"autoOpen\" keyword=\"dict\"",
+		""
+	],
+	"scrollStepSize": 300,
+	"smoothScroll": false,
+	"vimSync": false
+}
